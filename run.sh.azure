@@ -28,4 +28,4 @@ export OUTFILE=./recon_ADS1.bin
 
 export OMP_NUM_THREADS=32
 
-mpirun -mca btl tcp,self -np 32 ./memxct
+mpirun -mca btl tcp,self -np 12 ./memxct
