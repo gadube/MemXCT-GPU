@@ -1,0 +1,14 @@
+#PBS -N azure-test
+#PBS -l select=1:ncpus=12:mpiprocs=12,walltime=01:00:00
+#PBS -j oe
+
+cd $HOME
+if [[ ! -d "$HOME/azure_init" ]] 
+then
+	git clone https://github.com/gadube/azure_init.git
+fi
+
+source $HOME/azure_init/gpuinit.sh
+
+cd $HOME/MemXCT
+source ./run.sh.azure
