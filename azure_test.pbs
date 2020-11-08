@@ -11,4 +11,4 @@ fi
 source $HOME/azure_init/gpuinit.sh
 
 cd $HOME/MemXCT
-source $HOME/MemXCT/run.sh.azure
+source ./run.sh.azure
