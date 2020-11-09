@@ -24,6 +24,6 @@ export THEFILE=$HOME/MemXCT/MemXCT_datasets/CDS2_theta.bin
 export SINFILE=$HOME/MemXCT/MemXCT_datasets/CDS2_sinogram.bin
 export OUTFILE=$HOME/MemXCT/recon_CDS2.bin
 
-export OMP_NUM_THREADS=32
+export OMP_NUM_THREADS=12
 
-mpirun -mca btl tcp,self -np 1 $HOME/MemXCT/memxct
+mpirun -mca btl tcp,self -np 12 $HOME/MemXCT/memxct
