@@ -7,7 +7,7 @@ OPTFLAGS = -O3
 NVCC = nvcc
 NVCCFLAGS = -lineinfo -O3 -std=c++11 -ccbin=mpicxx -gencode arch=compute_37,code=sm_37 -Xcompiler -fopenmp -Xptxas="-v"
 
-LD_FLAGS = -fopenmp -L$(CUDA_INSTALL_DIR)/lib64 -lcudart
+LD_FLAGS = -fopenmp -L/usr/local/cuda/lib64 -lcudart
 
 TARGETS = memxct
 OBJECTS = src/main.o src/raytrace.o src/kernels.o

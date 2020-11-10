@@ -1,5 +1,5 @@
 #PBS -N azure-test
-#PBS -l select=2:mpiprocs=2,walltime=01:00:00
+#PBS -l select=4:mpiprocs=4,walltime=05:00:00
 #PBS -j oe
 
 cd $HOME
@@ -11,4 +11,11 @@ fi
 source $HOME/azure_init/gpuinit.sh
 
 cd $HOME/MemXCT
-source ./run.sh.azure.CDS1
+for i in {1..5}
+do
+	source ./run.sh.azure.CDS1
+done
+for i in {1..5}
+do
+	source ./run.sh.azure.CDS2
+done
