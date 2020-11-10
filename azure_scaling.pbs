@@ -9,6 +9,7 @@ then
 fi
 
 source $HOME/azure_init/gpuinit.sh
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/persist/lib64
 
 cd $HOME/MemXCT
 for i in {1..5}
