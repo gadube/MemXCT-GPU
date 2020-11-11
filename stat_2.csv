@@ -1,4 +1,4 @@
-Dataset,GFLOPS,gpu,BW,Ap_proj,C_proj,R_proj,Tot_proj,Ap_bproj,C_bproj,R_bproj,Tot_bproj,Nodes
+Dataset,GFLOPS,gpu,BW,timing_p,timing_b,time_type,Nodes
 CDS1,44.328428,K80,156.909514,0.592138,0.2860573,Total,1
 CDS1,44.328428,K80,156.909514,0.526824,0.2578116,Ap,1
 CDS1,44.328428,K80,156.909514,0.03100338,0.01579479,C,1
