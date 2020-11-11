@@ -1,0 +1,4 @@
+Our cluster used AVX2 vectorization which provides 256 bit vector registers
+compared to AVX-512 vectorization used in the paper which provides 512 bit vector 
+registers.
+

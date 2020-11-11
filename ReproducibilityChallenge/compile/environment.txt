@@ -1,0 +1,172 @@
+MANPATH=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ompi/share/man:/opt/pbs/share/man
+SHMEM_HOME=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ompi
+XDG_SESSION_ID=7
+HOSTNAME=ip-0A00003A
+HPCX_MPI_DIR=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ompi
+SELINUX_ROLE_REQUESTED=
+TERM=xterm-color256
+SHELL=/bin/bash
+HISTSIZE=1000
+SSH_CLIENT=66.169.80.86 49850 22
+LIBRARY_PATH=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ompi/lib:/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/nccl_rdma_sharp_plugin/lib:/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/sharp/lib:/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/hcoll/lib:/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/hmc/lib:/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ucx/lib
+SELINUX_USE_CURRENT_RANGE=
+OLDPWD=/mnt/exports/shared/home/USER/MemXCT
+CUDA_INSTALL_DIR=/usr/local/cuda
+CYCLECLOUD_BOOTSTRAP=/opt/cycle/jetpack/system/bootstrap
+SSH_TTY=/dev/pts/0
+LC_ALL=C.UTF-8
+HPCX_NCCL_RDMA_SHARP_PLUGIN_DIR=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/nccl_rdma_sharp_plugin
+PMIX_INSTALL_PREFIX=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ompi
+OPAL_PREFIX=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ompi
+HPCX_DIR=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64
+USER=USER
+LD_LIBRARY_PATH=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ompi/lib:/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/nccl_rdma_sharp_plugin/lib:/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/sharp/lib:/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/hcoll/lib:/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/hmc/lib:/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ucx/lib/ucx:/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ucx/lib
+LS_COLORS=
+CPATH=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ompi/include:/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/hmc/include:/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ucx/include:/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/sharp/include:/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/hcoll/include
+HPCX_HOME=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64
+HPCX_CLUSTERKIT_DIR=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/clusterkit
+HPCX_OSU_CUDA_DIR=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ompi/tests/osu-micro-benchmarks-5.6.2-cuda
+HPCX_SHARP_DIR=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/sharp
+HPCX_IPM_LIB=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ompi/tests/ipm-2.0.6/lib/libipm.so
+MAIL=/var/spool/mail/USER
+PATH=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ompi/bin:/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/clusterkit/bin:/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ompi/tests/imb:/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/hcoll/bin:/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ucx/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/cycle/jetpack/bin:/opt/pbs/bin:/mnt/exports/shared/home/USER/.local/bin:/mnt/exports/shared/home/USER/bin:/opt/pbs/bin:/tmp:/usr/local/cuda/bin:/opt/pbs/bin
+HPCX_HCOLL_DIR=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/hcoll
+OSHMEM_HOME=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ompi
+PWD=/mnt/exports/shared/home/USER/MemXCT/Author-Kit
+_LMFILES_=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/modulefiles/hpcx:/usr/share/Modules/modulefiles/mpi/hpcx
+HPCX_UCX_DIR=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ucx
+HPCX_IPM_DIR=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ompi/tests/ipm-2.0.6
+HPCX_HMC_DIR=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/hmc
+LANG=C.UTF-8
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+LOADEDMODULES=hpcx:mpi/hpcx
+SELINUX_LEVEL_REQUESTED=
+OMPI_HOME=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ompi
+HPCX_OSU_DIR=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ompi/tests/osu-micro-benchmarks-5.6.2
+HISTCONTROL=ignoredups
+HPCX_OSHMEM_DIR=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ompi
+SHLVL=1
+HOME=/mnt/exports/shared/home/USER
+LOGNAME=USER
+SSH_CONNECTION=66.169.80.86 49850 10.0.0.58 22
+LC_CTYPE=C.UTF-8
+MPI_HOME=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ompi
+MODULESHOME=/usr/share/Modules
+PKG_CONFIG_PATH=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ompi/lib/pkgconfig:/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ucx/lib/pkgconfig:/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/sharp/lib/pkgconfig:/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/hcoll/lib/pkgconfig
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+CYCLECLOUD_HOME=/opt/cycle/jetpack
+HPCX_MPI_TESTS_DIR=/opt/hpcx-v2.7.0-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ompi/tests
+XDG_RUNTIME_DIR=/run/user/20002
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`
+}
+_=/usr/bin/env
+Linux ip-0A00003A 3.10.0-1127.el7.x86_64 #1 SMP Tue Mar 31 23:36:51 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                2
+On-line CPU(s) list:   0,1
+Thread(s) per core:    1
+Core(s) per socket:    2
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 63
+Model name:            Intel(R) Xeon(R) CPU E5-2673 v3 @ 2.40GHz
+Stepping:              2
+CPU MHz:               2397.219
+BogoMIPS:              4794.43
+Hypervisor vendor:     Microsoft
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              30720K
+NUMA node0 CPU(s):     0,1
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm invpcid_single fsgsbase bmi1 avx2 smep bmi2 erms invpcid xsaveopt md_clear
+MemTotal:       16412604 kB
+MemFree:         7547200 kB
+MemAvailable:   15426224 kB
+Buffers:            7976 kB
+Cached:          7874680 kB
+SwapCached:            0 kB
+Active:          1058728 kB
+Inactive:        6990808 kB
+Active(anon):     168816 kB
+Inactive(anon):    15012 kB
+Active(file):     889912 kB
+Inactive(file):  6975796 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:       2097148 kB
+SwapFree:        2097148 kB
+Dirty:                64 kB
+Writeback:             0 kB
+AnonPages:        167040 kB
+Mapped:            46996 kB
+Shmem:             16956 kB
+Slab:             505012 kB
+SReclaimable:     359700 kB
+SUnreclaim:       145312 kB
+KernelStack:        5344 kB
+PageTables:        10892 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    10303448 kB
+Committed_AS:     690304 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      113644 kB
+VmallocChunk:   34359621632 kB
+Percpu:            25600 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:      8192 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      155584 kB
+DirectMap2M:     6135808 kB
+DirectMap1G:    12582912 kB
+NAME                     MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda                        8:0    0   30G  0 disk 
+|-sda1                     8:1    0  500M  0 part /boot
+|-sda2                     8:2    0   29G  0 part /
+|-sda14                    8:14   0    4M  0 part 
+`-sda15                    8:15   0  495M  0 part /boot/efi
+sdb                        8:16   0   20G  0 disk 
+`-sdb1                     8:17   0   20G  0 part /mnt/resource
+sdc                        8:32   0    8G  0 disk 
+`-vg_cyclecloud_data-lv0 253:0    0    8G  0 lvm  /persist
+sr0                       11:0    1  628K  0 rom  
+[1:0:0:0]    cd/dvd  Msft     Virtual CD/ROM   1.0   /dev/sr0        -
+[2:0:0:0]    disk    Msft     Virtual Disk     1.0   /dev/sda   32.2GB
+[3:0:1:0]    disk    Msft     Virtual Disk     1.0   /dev/sdb   21.4GB
+[5:0:0:0]    disk    Msft     Virtual Disk     1.0   /dev/sdc   8.58GB
+NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+
+H/W path    Device  Class          Description
+==============================================
+                    system         Computer
+/0                  bus            Motherboard
+/0/0                memory         16GiB System memory
+/0/1                processor      Intel(R) Xeon(R) CPU E5-2673 v3 @ 2.40GHz
+/0/100              bridge         440BX/ZX/DX - 82443BX/ZX/DX Host bridge (AGP disabled)
+/0/100/7            bridge         82371AB/EB/MB PIIX4 ISA
+/0/100/7.1          storage        82371AB/EB/MB PIIX4 IDE
+/0/100/7.3          bridge         82371AB/EB/MB PIIX4 ACPI
+/0/100/8            display        Hyper-V virtual VGA
+/0/2                system         PnP device PNP0b00
+/0/3                input          PnP device PNP0303
+/0/4                input          PnP device PNP0f03
+/0/5                communication  PnP device PNP0501
+/0/6                communication  PnP device PNP0501
+/0/7                storage        PnP device PNP0700
+/0/8                system         PnP device PNP0c02
+/0/9                system         PnP device PNP0c02
+/0/a                system         PnP device PNP0c01
+/1          eth0    network        Ethernet interface

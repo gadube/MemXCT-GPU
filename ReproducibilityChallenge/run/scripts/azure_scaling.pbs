@@ -1,0 +1,24 @@
+#PBS -N azure-test
+#PBS -l select=4:mpiprocs=4,walltime=05:00:00
+#PBS -j oe
+
+cd $HOME
+if [[ ! -d "$HOME/azure_init" ]] 
+then
+	git clone https://github.com/gadube/azure_init.git
+fi
+
+source $HOME/azure_init/gpuinit.sh
+git checkout -- CDS2_theta.bin
+mv CDS2_theta.bin MemXCT_datsets/CDS2_theta.bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/persist/lib64
+
+cd $HOME/MemXCT
+for i in {1..5}
+do
+	source ./run.sh.azure.CDS1
+done
+for i in {1..5}
+do
+	source ./run.sh.azure.CDS2
+done
