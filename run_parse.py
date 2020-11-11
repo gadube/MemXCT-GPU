@@ -10,6 +10,9 @@ dataset = []
 gputypes = []
 bw = []
 nnodes = []
+timing_p = []
+timing_b = []
+t_type = []
 ap_p = []
 c_p = []
 r_p = []
@@ -32,25 +35,43 @@ for filepath in files:
         for lines in file_object:
             line = lines.strip()
             if re.search("NUMBER OF PROCESSES    :",line):
-                x = re.search("[0-9]+",line)
-                nnodes.append(int(x.group(0)))
+                nd = re.search("[0-9]+",line)
+                nnodes.append(int(nd.group(0)))
+                nnodes.append(int(nd.group(0)))
+                nnodes.append(int(nd.group(0)))
+                nnodes.append(int(nd.group(0)))
             if re.search("totGFLOPS:",line):
                 x = re.search("totGFLOPS:",line)
-                x = re.search("[0-9]+[.][0-9]+",line[x.start():])
-                print(x.group(0))
-                gflops.append(float(x.group(0)))
+                flp = re.search("[0-9]+[.][0-9]+",line[x.start():])
+                print(flp.group(0))
+                gflops.append(float(flp.group(0)))
+                gflops.append(float(flp.group(0)))
+                gflops.append(float(flp.group(0)))
+                gflops.append(float(flp.group(0)))
+                gputypes.append(gputype)
+                gputypes.append(gputype)
+                gputypes.append(gputype)
                 gputypes.append(gputype)
             if re.search("recon_CDS1.bin",line):
-                print('CDS1')
-                dataset.append('CDS1')
+                datasets = 'CDS1'
+                dataset.append(datasets)
+                dataset.append(datasets)
+                dataset.append(datasets)
+                dataset.append(datasets)
             if re.search("recon_CDS2.bin",line):
-                print('CDS2')
-                dataset.append('CDS2')
+                datasets = 'CDS2'
+                dataset.append(datasets)
+                dataset.append(datasets)
+                dataset.append(datasets)
+                dataset.append(datasets)
             if re.search("GB/s tot:",line):
                 x = re.search("GB/s tot:",line)
-                x = re.search("[0-9]+[.][0-9]+",line[x.start():])
-                print(x.group(0))
-                bw.append(float(x.group(0)))
+                gb = re.search("[0-9]+[.][0-9]+",line[x.start():])
+                print(gb.group(0))
+                bw.append(float(gb.group(0)))
+                bw.append(float(gb.group(0)))
+                bw.append(float(gb.group(0)))
+                bw.append(float(gb.group(0)))
             if re.search("recon:",line):
                 if re.search("proj:",line):
                     x = re.search("proj:",line)
@@ -62,10 +83,18 @@ for filepath in files:
                     C_proj = C_proj.group(0)[1:]
                     R_proj = R_proj.group(0)[:-1]
                     total_proj = total_proj.group(0)
-                    ap_p.append(float(ap_proj))
-                    c_p.append(float(C_proj))
-                    r_p.append(float(R_proj))
                     tot_p.append(float(total_proj))
+                    timing_p.append(float(total_proj))
+                    t_type.append("Total")
+                    ap_p.append(float(ap_proj))
+                    timing_p.append(float(ap_proj))
+                    t_type.append("Ap")
+                    c_p.append(float(C_proj))
+                    timing_p.append(float(C_proj))
+                    t_type.append("C")
+                    r_p.append(float(R_proj))
+                    timing_p.append(float(R_proj))
+                    t_type.append("R")
                 if re.search("backproj:",line):
                     x = re.search("backproj:",line)
                     total_bproj = re.search("[0-9]+[.][0-9]+[e][+|-][0-9]+",line[x.start():])
@@ -76,12 +105,18 @@ for filepath in files:
                     C_bproj = C_bproj.group(0)[1:]
                     R_bproj = R_bproj.group(0)[1:]
                     total_bproj = total_bproj.group(0)
-                    ap_bp.append(float(ap_bproj))
-                    c_bp.append(float(C_bproj))
-                    r_bp.append(float(R_bproj))
                     tot_bp.append(float(total_bproj))
+                    timing_b.append(float(total_bproj))
+                    ap_bp.append(float(ap_bproj))
+                    timing_b.append(float(ap_bproj))
+                    c_bp.append(float(C_bproj))
+                    timing_b.append(float(C_bproj))
+                    r_bp.append(float(R_bproj))
+                    timing_b.append(float(R_bproj))
 
 
-f.write('Dataset,GFLOPS,gpu,BW,Ap_proj,C_proj,R_proj,Tot_proj,Ap_bproj,C_bproj,R_bproj,Tot_bproj,Nodes\n')
-for a,b,c,d,e,F,g,h,i,j,k,l,m in zip(dataset,gflops,gputypes,bw,ap_p,c_p,r_p,tot_p,ap_bp,c_bp,r_bp,tot_bp,nnodes):
-    f.write(a+','+str(b)+','+c+','+str(d)+','+str(e)+','+str(F)+','+str(g)+','+str(h)+','+str(i)+','+str(j)+','+str(k)+','+str(l)+','+str(m)+'\n')
+f.write('Dataset,GFLOPS,gpu,BW,timing_p,timing_b,time_type,Nodes\n')
+# for a,b,c,d,e,F,g,h,i,j,k,l,m in zip(dataset,gflops,gputypes,bw,ap_p,c_p,r_p,tot_p,ap_bp,c_bp,r_bp,tot_bp,nnodes):
+#     f.write(a+','+str(b)+','+c+','+str(d)+','+str(e)+','+str(F)+','+str(g)+','+str(h)+','+str(i)+','+str(j)+','+str(k)+','+str(l)+','+str(m)+'\n')
+for a,b,c,d,e,F,g,h in zip(dataset,gflops,gputypes,bw,timing_p,timing_b,t_type,nnodes):
+    f.write(a+','+str(b)+','+c+','+str(d)+','+str(e)+','+str(F)+','+str(g)+','+str(h)+'\n')
